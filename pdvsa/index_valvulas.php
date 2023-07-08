@@ -17,14 +17,9 @@ $resultadoValvula = mysqli_query($conn, $queryValvula);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-
-        <div class="text-center">
-        <h2>Pozo: <?php echo $rows['nombre_pozo'] ?></h2>
-        <h2>Ubicacion: <?php echo $rows['ubicacion_pozo'] ?></h2> <br>
-        </div>
-
+    
         <div class="d-flex row mb-2 col-12 m-2 border">
-            <div class="col-4">
+            <div class="col-4 border border-dark border-2">
                 <h2 class="titulo-Seccion">Ingrese Valvula</h2> <br> <br>
                 <form action="" method="POST">
                     <label for="">Ingrese valor PSI:</label> <br>
@@ -34,7 +29,9 @@ $resultadoValvula = mysqli_query($conn, $queryValvula);
 
             </div>
             <div class="col-6">
-                <h2 class="text-center">Valvulas Registradas</h2><br>
+                <h2 class="text-center border border-danger border-2">Valvulas Registradas De:</h2><br>
+                <h2>Pozo: <?php echo $rows['nombre_pozo'] ?></h2>
+                <h2>Ubicacion: <?php echo $rows['ubicacion_pozo'] ?></h2> <br>
                 <table class="table table-primary table-hover">
                     <thead class="table text center">
                         <tr>

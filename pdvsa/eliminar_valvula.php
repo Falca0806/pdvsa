@@ -37,7 +37,7 @@ if(isset($_POST['btnBorrar'])) {
     $idPozo = $rows['pozo_id'];
     $queryBorrar = "DELETE from registro where id_registro=$id";
     $resultado = mysqli_query($conn,$queryBorrar);
-    header("Location:index_Valvulas.php?id=$idPozo");
+    header("Location:index_valvulas.php?id=$idPozo");
 }
 
 if(isset($_POST['btnVolver'])) {

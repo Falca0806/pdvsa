@@ -17,7 +17,7 @@ $resultadoValvula = mysqli_query($conn, $queryValvula);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    
+    <br>
         <div class="d-flex row mb-2 col-12 m-2 border">
             <div class="col-4 border border-dark border-2">
                 <h2 class="titulo-Seccion">Ingrese Valvula</h2> <br> <br>

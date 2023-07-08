@@ -54,11 +54,12 @@
         })
         </script>    
     </div> <br>
-    <div class="container-Valvulas"> 
+    <div class="container"> 
             <form action="" method="POST">
                 <input type="submit" name="volverIndexValvulas" value="Volver a Valvulas" class="btn btn-primary">
             </form>
     </div>
+     <br>
 
 
 </body>

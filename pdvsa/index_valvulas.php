@@ -77,9 +77,10 @@ if(isset($_POST['botonRegistroValvula'])) {
             $resultadoFinal = mysqli_query($conn,$queryPozo);
             if(!$resultadoFinal) {
                 die("Query failed");
-            } else
-            echo "Se logro el registro exitosamente";
+            } else{
             header("Location:index_valvulas.php?id=$idPozo");
+            }
+
     }
 
     

@@ -19,7 +19,7 @@ $resultadoValvula = mysqli_query($conn, $queryValvula);
 <body>
 
         <div class="text-center">
-        <h2>Pozo: <?php echo $rows['nombre_pozo'] ?></h2> <br>
+        <h2>Pozo: <?php echo $rows['nombre_pozo'] ?></h2>
         <h2>Ubicacion: <?php echo $rows['ubicacion_pozo'] ?></h2> <br>
         </div>
 

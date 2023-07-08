@@ -33,7 +33,7 @@ $resultadoValvula = mysqli_query($conn, $queryValvula);
                 <h2>Pozo: <?php echo $rows['nombre_pozo'] ?></h2>
                 <h2>Ubicacion: <?php echo $rows['ubicacion_pozo'] ?></h2> <br>
                 <table class="table table-primary table-hover">
-                    <thead class="table text center">
+                    <thead class="text center">
                         <tr>
                             <th>Id Registro</th>
                             <th>Fecha y Hora del Registro</th>

@@ -20,7 +20,7 @@ $queryResultado = mysqli_query($conn,$query);
     <h1 class="text-center">Pozos Petroleros</h1>
 
     <form class="d-flex row mb-2 col-12 m-2 border" method="POST">
-        <div class="col-4">
+        <div class="col-4 border border-dark border-2">
             <h2 class="text-center">Registro de Pozo</h2>
             <br>
             <label for="">Nombre</label>
